@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Generated jobs and audio
+jobs/
+outputs/
+audio/
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.m4b
+
+# Local/private config
+config/local.yaml
+*.local.yaml
+.env
+
+# Model/dependency caches
+.cache/
+huggingface/
+models/
